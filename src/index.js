@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import AnimatedRouter from './components/AnimatedRouter';
 import './components/AnimatedRouter.css';
 // import CacheRoute from './components/react-router-cache-route/components/CacheRoute';
