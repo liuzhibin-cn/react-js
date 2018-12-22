@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import AnimatedRouter from './components/AnimatedRouter';
 import './components/AnimatedRouter.css';
 // import CacheRoute from './components/react-router-cache-route/components/CacheRoute';
@@ -18,8 +18,8 @@ ReactDOM.render(
     <Router>
         <AnimatedRouter className="router-container" appear={false}>
         {/* <CacheSwitch> */}
-            <Route exact path={`/`} component={App} className="cache-route-wrapper" cacheKey="/" when="forward" />
-            <Route path={`/item/:id`} component={SKUInfo} />
+            <Route exact path={`${URL}/`} component={App} className="cache-route-wrapper" cacheKey="/" when="forward" />
+            <Route path={`${URL}/item/:id`} component={SKUInfo} />
         {/* </CacheSwitch> */}
         </AnimatedRouter>
     </Router>, document.getElementById('root')

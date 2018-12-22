@@ -50,7 +50,7 @@ class Home extends React.Component {
                 )}
             />
             {StaticResource.Demo.Items.map(item => (
-                <Link key={item.id} to={`/item/${item.id}`}>
+                <Link key={item.id} to={`${URL}/item/${item.id}`}>
                     <SKUListItem id={item.id} price={item.price} title={item.title} imageUrl={item.listImage} />
                 </Link>
             ))}
