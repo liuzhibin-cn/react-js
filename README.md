@@ -13,7 +13,7 @@
 ```sh
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 npm config set registry https://registry.npm.taobao.org
-npm config get registry # 查看registr配置
+npm config get registry # 查看registry配置
 ```
 
 #### React脚手架 `create-react-app`
@@ -23,7 +23,7 @@ cnpm install -g create-react-app # 全局安装create-react-app
 create-react-app react-js # 创建react-js应用
 cd react-js
 cnpm start # 开发环境运行react-js应用
-cnpm run build # 编译构建部署包，输出到build目录下
+cnpm run build # 编译构建部署包，输出到build目录下
 ```
 
 #### Ant Design Mobile `antd-mobile`

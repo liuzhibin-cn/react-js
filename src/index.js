@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 import SKUInfo from './item/SKUInfo';
 import './index.css';
-import { Switch } from 'antd-mobile';
+// import { Switch } from 'antd-mobile';
 // import CacheSwitch from './components/react-router-cache-route/components/CacheSwitch';
 
 const URL = process.env.PUBLIC_URL ? process.env.PUBLIC_URL : '';

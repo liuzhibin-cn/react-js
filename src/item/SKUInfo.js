@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Scrollbar from 'react-smooth-scrollbar';
 // import SmoothScrollbar from 'smooth-scrollbar';
 // import OverscrollPlugin from 'smooth-scrollbar/plugins/overscroll';
@@ -24,7 +24,7 @@ class SKUInfo extends React.Component {
         const item = StaticResource.Demo.Items.filter(item => item.id === id)[0];
         return (
             <div className="sku-page-wrapper">
-                <a onClick={this.goBack} className="sku-top-bar"><div className="icon-back"></div></a>
+                <a href="#a" onClick={this.goBack} className="sku-top-bar"><div className="icon-back"></div></a>
                 <Scrollbar style={{height:'100%'}} className="sku-scrollbar-wrapper">
                     <Carousel autoplay={true} autoplayInterval={4000} infinite swipeSpeed={300} slideWidth={1} className="sku-main-img-container">
                         {item.mainImages.map((url, index) => (
