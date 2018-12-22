@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import AnimatedRouter from './components/AnimatedRouter';
 import './components/AnimatedRouter.css';
-import CacheRoute from './components/react-router-cache-route/components/CacheRoute';
+// import CacheRoute from './components/react-router-cache-route/components/CacheRoute';
 
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 import SKUInfo from './item/SKUInfo';
 import './index.css';
+import { Switch } from 'antd-mobile';
 // import CacheSwitch from './components/react-router-cache-route/components/CacheSwitch';
 
 const URL = process.env.PUBLIC_URL ? process.env.PUBLIC_URL : '';
@@ -17,7 +18,7 @@ ReactDOM.render(
     <Router>
         <AnimatedRouter className="router-container" appear={false}>
         {/* <CacheSwitch> */}
-            <CacheRoute exact path={`${URL}/`} component={App} className="cache-route-wrapper" cacheKey="/" when="forward" />
+            <Route exact path={`${URL}/`} component={App} className="cache-route-wrapper" cacheKey="/" when="forward" />
             <Route path={`${URL}/item/:id`} component={SKUInfo} />
         {/* </CacheSwitch> */}
         </AnimatedRouter>
