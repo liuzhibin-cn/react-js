@@ -2,7 +2,7 @@
 用手机浏览器访问[https://liuzhibin-cn.github.io/react-js/build](https://liuzhibin-cn.github.io/react-js/build)。<br />
 如果通过浏览器`保存到主屏`，然后从主屏上点击图标打开应用，则不会出现浏览器导航栏，效果跟使用APP类似。
 
-![](./public/assets/images/screenshot-01.png) 　![](./public/assets/images/screenshot-02.png) 　![](./public/assets/images/screenshot-03.png) 
+![](https://liuzhibin-cn.github.io/react-js/build/assets/images/screenshot-01.png) 　![](https://liuzhibin-cn.github.io/react-js/build/assets/images/screenshot-02.png) 　![](https://liuzhibin-cn.github.io/react-js/build/assets/images/screenshot-03.png) 
 
 ### 创建React项目
 
@@ -32,7 +32,7 @@ cnpm run build # 编译构建部署包，输出到build目录下
 在`create-react-app`创建的项目中使用`antd-mobile`参考：[Use in create-react-app](https://mobile.ant.design/docs/react/use-with-create-react-app)，入口html页的修改参考：[Ant Design Mobile of React](https://mobile.ant.design/docs/react/introduce#Getting-Started)。
 
 #### 项目结构
-![Hello React项目结构](./public/assets/images/project-structure.png)
+![Hello React项目结构](https://liuzhibin-cn.github.io/react-js/build/assets/images/project-structure.png)
 
 `node_modules`：项目本地安装的模块都在这个目录下，项目源代码管理中需要忽略这个文件夹；<br />
 `build/`：项目编译打包后的发布目录/部署包，项目源代码管理中可以忽略这个文件夹；<br />
